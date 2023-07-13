@@ -1,0 +1,328 @@
+body{
+    background-color: rgb(1, 1, 33);
+}
+/*header stlying*/
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.leftside{
+    display: flex;
+    margin-left: 20px;
+}
+.search {
+    position: relative;
+  }
+.search-icon {
+    position: absolute;
+    top: 21%;
+    left: 10px;
+    transform: translateY(-50%);
+    pointer-events: none; /* Ensures the icon doesn't intercept clicks */
+  }
+input[type="text"] {
+    color: white;
+    border-top: 0 ;
+    border-right: 0 ;
+    border-left: 0 ;
+    border-bottom: 1px outset white;
+    padding-left: 40px; /* Add space for the search icon */
+  }
+#iconuser{
+    margin-right:15px
+
+}
+
+
+.rightside ul{
+    list-style-type: none;
+    display: flex;
+    gap:20px;
+}
+.rightside li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: white;
+    letter-spacing: 2px;
+    padding-left: 7px;
+}
+.rightside a{
+    position: relative;
+    text-decoration: none;
+}
+.rightside a:hover{
+    border-left: 5px solid red
+}
+
+/*home styling*/
+
+.container1{
+    margin-top:70px;
+    display: flex;
+    gap:600px;
+}
+.start{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#logo img{
+    margin-left: 200px;
+    width:300px
+}
+
+#description{
+    margin-left:110px ;
+    margin-bottom: 30px;
+    color: rgb(173, 172, 172);
+    text-align: center;
+    font-size: medium;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#gif1{
+    width: 400px;
+    height: 400px;
+}
+#button1{
+    margin-left: 230px;
+    width: 250px;
+    height: 50px;
+    background-color: #ed3c47;
+    border: #ed3c47;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#button1 a{
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #ed3c47;
+    color: rgb(255, 246, 246);
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*about us*/
+.container2{
+    margin-left: 20px;
+    display: flex;
+    border-left:2px solid rgb(190, 186, 186) ;
+}
+#title{
+    text-align: center;
+}
+#red{
+    color: #ed3c47;
+}
+#normal{
+    border-bottom:2px solid #ed3c47;
+}
+#paragraph{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif; ;
+}
+#text{
+    color: white;
+    margin-left:100px;
+    margin-top:100px
+}
+#list ul{
+    list-style: none;
+}
+#pic{
+    width: 200px;
+    height:50vh
+}
+#button2{
+    width: 250px;
+    height: 50px;
+    background-color: #ed3c47;
+    border: #ed3c47;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#button2 a{
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #ed3c47;
+    color: rgb(255, 246, 246);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#images img{
+    width:300px
+}
+/*products*/
+.container3{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left:120px
+}
+/*card1*/
+.card{
+    margin-top: 300px;
+    width:300px;
+    background-color:white;
+    color: rgb(147, 143, 143);
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items:center;
+    margin-left:90px;
+    border-radius:5px;
+    overflow: visible;
+    position: relative;
+}
+#can img{
+    width: 140px;
+    position: absolute;
+    bottom: 80%;
+    left: 60px;
+}
+#namedrink{
+    margin-top: 60px;
+    padding:10px;
+    font-size: large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#descdrink{
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 30px;
+    font-size: medium;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#learnmore{
+    padding-bottom: 50px;
+}
+#learnmore button{
+    color:white;
+    width: 200px;
+    height:30px;
+    background-color: rgb(54, 54, 239);
+    border:0;
+    border-radius: 10px;
+}
+
+/*card2*/
+#card2{
+    transform: translateY(-50%);
+}
+#card2 button{
+    background-color: #ed3c47;
+}
+/*card3*/
+#card3 button{
+    background-color: rgb(124, 124, 246);
+}
+
+.container4,.container5{
+    margin-top: 70px;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+}
+#paragraph{
+    text-align: center;
+    font-size: medium;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.cardsA{
+    display: flex;
+    flex-wrap:wrap;
+}
+.ath{
+    width:250px;
+    margin:100px;
+    background-color: white;
+    color:rgb(163, 159, 159);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius:5px;
+    overflow: visible;
+}
+.ath img{
+    border-radius: 10px;
+    width:200px
+}
+.ath button{
+    margin: 50px;
+    color:white;
+    width: 200px;
+    height:30px;
+    background-color: rgb(54, 54, 239);
+    border:0;
+    border-radius: 10px;
+    background-color:#ed3c47 ;
+}
+.gridpics img{
+    border-radius: 10px;
+    width:200px
+}
+.gridpics:first-child img{
+    grid-area: pic1;
+}
+.gridpics:nth-child(2) img{
+    grid-area: pic2;
+
+}
+.gridpics:nth-child(3) img{
+    grid-area: pic3;
+
+}
+.gridpics:nth-child(4) img{
+    grid-area: pic4;
+
+}
+.gridpics:nth-child(5) img{
+    grid-area: pic5;
+}
+.gridpics:nth-child(6) img{
+    grid-area: pic6;
+}
+
+.gridpics{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-template-areas:
+    "pic1 pic2 pic2" 
+    "pic3 pic4 pic4" 
+    "pic5 pic5 pic6" ;
+}
+footer{
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+}
+#logo2 img{
+    width:100px
+}
+footer ul{
+    list-style-type: none;
+    display: flex;
+    gap:20px;
+}
+footer ul a{
+    color:white;
+    text-decoration: none;
+}
+.header h2{
+    border-bottom: 1px outset #ed3c47 ;
+}
+
+
+/*tried this but it didnt work
+.images{
+    display: flex;
+}
+.images div{
+    height:200px;
+    background: white;
+    flex: 1;
+    transition: 3s;
+}
+.images div:hover{
+    flex: 3;
+    background: black;;
+}
